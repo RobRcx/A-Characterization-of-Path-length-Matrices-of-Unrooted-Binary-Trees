@@ -6,10 +6,10 @@ You can manually install all the dependencies therein, or you can optionally imp
 <br><br>
 conda env create -f solve310.yml
 <br><br>
-from the Anaconda prompt. The optional Anaconda installation can be downloaded at https://www.anaconda.com/download. 
+from the Anaconda prompt. The optional Anaconda installation can be downloaded at https://www.anaconda.com/download.
  
 <br><br>
-The code uses DOCplex API for MILP. Academics and students can verify their access to a free version of CPLEX at the following link: https://www.ibm.com/academic/
+The code uses DOCplex API for MILP. Academics and students can verify their access to a free version of CPLEX at https://www.ibm.com/academic/.
 
 ## Structure of the repository
 
