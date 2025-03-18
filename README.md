@@ -9,7 +9,7 @@ conda env create -f solve310.yml
 from the Anaconda prompt. The optional Anaconda installation can be downloaded at https://www.anaconda.com/download. 
  
 <br><br>
-The code uses DOCplex API for MILP. Academics and students can verify their access to a free version of CPLEX at the following link: [https://community.ibm.com/community/user/ai-datascience/blogs/xavier-nodet1/2020/07/09/cplex-free-for-students?CommunityKey=ab7de0fd-6f43-47a9-8261-33578a231bb7&tab=](https://www.ibm.com/academic/)
+The code uses DOCplex API for MILP. Academics and students can verify their access to a free version of CPLEX at the following link: https://www.ibm.com/academic/
 
 ## Structure of the repository
 
