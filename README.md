@@ -13,9 +13,9 @@ The code uses DOCplex API for MILP. Academics and students can verify their acce
 
 ## Structure of the repository
 
-Folders:
-|---> data (problem instances used in Section 4 and Appendix A)
-|---> results (results presented in Section 4 and Appendix A)
+Folders:<br>
+|---> data (problem instances used in Section 4 and Appendix A)<br>
+|---> results (results presented in Section 4 and Appendix A)<br>
 |---> src (source code files)
 
 ## Support code for Proposition 12
@@ -26,5 +26,5 @@ Folders:
 
 ## Code used in Section 4, Appendix A, and Appendix C
 
--) "main.py" is the main script for using F1-Manifold and F1-Buneman (both with and without disjunctive constraints).
+-) "main.py" is the main script for using F1-Manifold and F1-Buneman (both with and without disjunctive constraints).<br>
 -) "ini" folder contains the different configurations described in Section 4. We added several preset configurations, but the one that is loaded by "main.py" is "ini/main.ini".
