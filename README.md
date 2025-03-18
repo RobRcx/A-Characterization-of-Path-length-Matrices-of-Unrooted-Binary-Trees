@@ -1,17 +1,15 @@
-# Code for A CHARACTERIZATION OF PATH-LENGTH MATRICES OF UNROOTED BINARY TREES
+## Code for A CHARACTERIZATION OF PATH-LENGTH MATRICES OF UNROOTED BINARY TREES
 The code in this repository is written in Python 3. The library dependencies of the code are contained in the Conda environment file "solve310.yml".
 You can manually install all the dependencies therein, or you can optionally import this file as a Conda environment with the command:
-<br>
+<br><br>
 conda env create -f solve310.yml
-<br>
+<br><br>
 from the Anaconda prompt. The optional Anaconda installation can be downloaded at https://www.anaconda.com/download. 
  
 <br><br>
 The code uses DOCplex API for MILP. Academics and students can verify their access to a free version of CPLEX at the following link: https://community.ibm.com/community/user/ai-datascience/blogs/xavier-nodet1/2020/07/09/cplex-free-for-students?CommunityKey=ab7de0fd-6f43-47a9-8261-33578a231bb7&tab=
 
 <br><br>
-
-
 
 # Support code for Proposition 12
 
