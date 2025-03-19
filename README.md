@@ -13,7 +13,10 @@ The code uses DOCplex API for MILP. Academics and students can verify their acce
 ## Structure of the repository
 
 Folders:<br>
-|---> data (problem instances used in Section 4 and Appendix A)<br>
+|---> data <br>
+        |---> instances <br>
+                |---> original (problem instances used in Section 4 and Appendix A)
+                          |---> buneman quadruplets (optimal values of y in F1-Buneman for each instance)
 |---> results (results presented in Section 4 and Appendix A)<br>
 |---> src (source code files)
 
@@ -25,9 +28,16 @@ Folders:<br>
 ## Code used in Section 4, Appendix A, and Appendix C
 
 - "main.py" is the main script for using F1-Manifold and F1-Buneman (both with and without disjunctive constraints).<br>
-- "ini" folder contains the different configurations described in Section 4. We added several preset configurations, but the one that is loaded by "main.py" is "ini/main.ini". In order to load different configurations, change the line<br>
+- "src/ini" is the folder containing the different configurations described in Section 4. The module "main.py" loads the "ini/main.ini" configuration. In order to load one or more different configurations, change the line<br>
 `configs = [config.Config(mode=BMEPMode.BunV, init_file_path="ini/main.ini")]`<br>
-in "main.py" to add different configurations.
+in "main.py".
+Inside "src/ini", we added different preset configurations:
+- "config_F1_Manifold.ini" is used for **F1-Manifold**.
+- "config_F1_Buneman_disjunctive.ini" is used for **F1-Buneman**.
+- "config_F1_Buneman_disjunctive.ini" is used for non **disjunctive F1-Buneman**.
+- "config_contractions.ini" is used for **contraction-based formulation with UBT-manifold condition**.
+- "config_contractions_Manifold.ini" is used for **contraction-based formulation with UBT-manifold condition**.
 
 ## Structure of .ini configuration files in ini folder
+
 
