@@ -29,3 +29,5 @@ Folders:<br>
 `configs = [config.Config(mode=BMEPMode.BunV, init_file_path="ini/main.ini")]`<br>
 in "main.py" to add different configurations.
 
+## Structure of .ini configuration files in ini folder
+
