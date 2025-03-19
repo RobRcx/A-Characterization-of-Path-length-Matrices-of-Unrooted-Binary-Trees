@@ -10,15 +10,19 @@ from the Anaconda prompt. The optional Anaconda installation can be downloaded a
 <br>
 The code uses DOCplex API for MILP. Academics and students can verify their access to a free version of CPLEX at https://www.ibm.com/academic/.
 
-## Structure of the repository
+## Structure outline of the repository
 
-Folders:<br>
 |---> data <br>
 &nbsp;&nbsp;&nbsp; |---> instances <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |---> original (problem instances used in Section 4 and Appendix A)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |---> buneman quadruplets (optimal values of y in F1-Buneman for each instance)<br>
 |---> results (results presented in Section 4 and Appendix A)<br>
-|---> src (source code files)
+&nbsp;&nbsp;&nbsp; |---> BMEP_classic <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |---> F1-Manifold <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |---> F1-Buneman <br>
+&nbsp;&nbsp;&nbsp; |---> BMEP_classic_contractions <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |---> Contractions <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |---> Contractions-Manifold <br>
 
 ## Support code for Proposition 12
 
