@@ -19,9 +19,9 @@ Folders:<br>
 
 ## Support code for Proposition 12
 
--) "combinations/generate_combinations.py" is the main script for generating the combinations of path-length sequences.
+- "combinations/generate_combinations.py" is the main script for generating the combinations of path-length sequences.
 <br>
--) "config.py" is a configuration script containing values for the parameters "n" (i.e, the number of leaves) and "solver", which depends on the MILP solver installed on the runtime platform (e.g., "cplex" for IBM CPLEX and "xpress" for FICO Xpress, according to pyomo documentation: https://pyomo.readthedocs.io/en/stable/).
+- "config.py" is a configuration script containing values for the parameters "n" (i.e, the number of leaves) and "solver", which depends on the MILP solver installed on the runtime platform (e.g., "cplex" for IBM CPLEX and "xpress" for FICO Xpress, according to pyomo documentation: https://pyomo.readthedocs.io/en/stable/).
 
 ## Code used in Section 4, Appendix A, and Appendix C
 
