@@ -15,8 +15,8 @@ The code uses DOCplex API for MILP. Academics and students can verify their acce
 Folders:<br>
 |---> data <br>
         |---> instances <br>
-                |---> original (problem instances used in Section 4 and Appendix A)
-                          |---> buneman quadruplets (optimal values of y in F1-Buneman for each instance)
+                |---> original (problem instances used in Section 4 and Appendix A)<br>
+                          |---> buneman quadruplets (optimal values of y in F1-Buneman for each instance)<br>
 |---> results (results presented in Section 4 and Appendix A)<br>
 |---> src (source code files)
 
