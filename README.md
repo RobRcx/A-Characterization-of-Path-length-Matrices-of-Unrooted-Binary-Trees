@@ -25,8 +25,8 @@ Folders:<br>
 
 ## Code used in Section 4, Appendix A, and Appendix C
 
--) "main.py" is the main script for using F1-Manifold and F1-Buneman (both with and without disjunctive constraints).<br>
--) "ini" folder contains the different configurations described in Section 4. We added several preset configurations, but the one that is loaded by "main.py" is "ini/main.ini". In order to load different configurations, change the line<br>
+- "main.py" is the main script for using F1-Manifold and F1-Buneman (both with and without disjunctive constraints).<br>
+- "ini" folder contains the different configurations described in Section 4. We added several preset configurations, but the one that is loaded by "main.py" is "ini/main.ini". In order to load different configurations, change the line<br>
 `configs = [config.Config(mode=BMEPMode.BunV, init_file_path="ini/main.ini")]`<br>
 to add different configurations.
 
