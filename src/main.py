@@ -79,6 +79,7 @@ def solve(n, m, conf, filename, instance):
 
 def main(conf):
     for filename in os.listdir(conf.instance_path):
+        print("**************************************************************")
         # Checks that the current file is not a directory
         if os.path.isdir(os.path.join(conf.instance_path, filename)):
             continue
@@ -103,6 +104,7 @@ def main(conf):
 def main_buneman_violation(conf):
     for n in range(conf.n_min, conf.n_max + 1):
         for i in range(conf.start, conf.start + conf.repeat):
+            print("**************************************************************")
             m = instance_reader.generate(n)
             instance = f"{i}_n{n}"
             skipped, ok_mip, results, res_map, ok_relaxed, relaxed_results, relaxed_res_map, gap, solver, solverIO = (
@@ -214,10 +216,14 @@ if __name__ == "__main__":
     '''configs = [config.Config(mode=BMEPMode.BunV, init_file_path="ini/config_Buneman_violation_n12.ini"),
                config.Config(mode=BMEPMode.BunV, init_file_path="ini/config_Buneman_violation_n13.ini"),
                config.Config(mode=BMEPMode.BMEPbun, init_file_path="ini/config_F1_Manifold.ini"),
-               config.Config(mode=BMEPMode.BMEPbun, init_file_path="ini/config_F1_Buneman.ini"),
+               config.Config(mode=BMEPMode.BMEPbun, init_file_path="ini/config_F1_Buneman_non_disjunctive.ini"),
+               config.Config(mode=BMEPMode.BMEPbun, init_file_path="ini/config_F1_Buneman_disjunctive.ini"),
                config.Config(mode=BMEPMode.BMEPbun, init_file_path="ini/config_contractions.ini"),
                config.Config(mode=BMEPMode.BMEPbun, init_file_path="ini/config_contractions_Manifold.ini")]'''
+
     configs = [config.Config(mode=BMEPMode.BunV, init_file_path="ini/main.ini")]
+
+    # configs = [config.Config(mode=BMEPMode.BMEPbun, init_file_path="ini/config_Buneman_violation_n13.ini")]
     for conf in configs:
         print("Solver cls \t= ", conf.solver_cls) #, "\nTime limit : ", conf.time_limit, "\nMip gap : ", conf.mipgap)
         if conf.mode == BMEPMode.BunV:
