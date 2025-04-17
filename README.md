@@ -15,7 +15,7 @@ The code uses DOCplex API for MILP. Academics and students can verify their acce
 |---> data <br>
 &nbsp;&nbsp;&nbsp; |---> instances <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |---> original (problem instances used in Section 4 and Appendix A)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |---> buneman quadruplets (optimal values of y in F1-Buneman for each instance)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |---> buneman quadruplets (optimal values of y variables in F1-Buneman for each instance)<br>
 |---> results (results presented in Section 4 and Appendix A)<br>
 &nbsp;&nbsp;&nbsp; |---> BMEP_classic <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |---> F1-Manifold <br>
