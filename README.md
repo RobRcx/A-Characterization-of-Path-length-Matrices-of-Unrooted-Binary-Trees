@@ -29,7 +29,7 @@ The code uses DOCplex API for MILP. Academics and students can verify their acce
 - "combinations/generate_combinations.py" is the main script for generating the combinations of path-length sequences.<br>
 - "config.py" is a configuration script containing values for the parameters "n" (i.e, the number of leaves) and "solver", which depends on the MILP solver installed on the runtime platform (e.g., "cplex" for IBM CPLEX and "xpress" for FICO Xpress, according to pyomo documentation: https://pyomo.readthedocs.io/en/stable/).
 
-## Code used in Section 4, Appendix A, and Appendix C
+## Code used in Section 4 and Appendix A
 
 - "main.py" is the main script for using F1-Manifold and F1-Buneman (both with and without disjunctive constraints).<br>
 - "src/ini" is the folder containing the different configurations described in Section 4. The module "main.py" loads the "ini/main.ini" configuration. In order to load one or more different configurations, change the line<br>
