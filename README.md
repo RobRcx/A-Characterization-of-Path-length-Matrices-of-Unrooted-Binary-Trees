@@ -32,9 +32,10 @@ The code uses DOCplex API for MILP. Academics and students can verify their acce
 ## Code used in Section 4 and Appendix A
 
 - "main.py" is the main script for using F1-Manifold and F1-Buneman (both with and without disjunctive constraints).<br>
-- "src/ini" is the folder containing the different configurations described in Section 4. The module "main.py" loads the "ini/main.ini" configuration. In order to load one or more different configurations, change the line<br>
+- "src/ini" is the folder containing the different configurations described in Section 4. The module "main.py" loads the "ini/main.ini" configuration. In order to load one or more different configurations, please change the line<br>
 `configs = [config.Config(mode=BMEPMode.BunV, init_file_path="ini/main.ini")]`<br>
-in "main.py".
+in "main.py" according to your needs.<br><br>
+
 Inside "src/ini", we added different preset configurations:
 - "config_F1_Manifold.ini" is used for **F1-Manifold**.
 - "config_F1_Buneman_disjunctive.ini" is used for **F1-Buneman**.
